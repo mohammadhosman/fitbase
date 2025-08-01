@@ -25,7 +25,7 @@ class User(AbstractUser):
 
     date_joined = models.DateTimeField(auto_now_add=True)
 
-    
-    bio = models.CharField(max_length=600)
+    bio = models.TextField(max_length=1200 ,blank=True, null=True)
 
-    USERNAME_FIELD = 'username'
+    def __str__(self):
+        return self.username
