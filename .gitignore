@@ -24,13 +24,13 @@ dist-ssr
 *.sw?
 
 # Django
-django/db.sqlite3
-django/media/
-django/__pycache__/
-django/*/__pycache__/
-django/*/*/__pycache__/
-django/.env
-django/staticfiles/
+backend/db.sqlite3
+backend/media/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/.env
+backend/staticfiles/
 
 # React
 frontend/node_modules/
