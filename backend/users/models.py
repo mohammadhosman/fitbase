@@ -27,5 +27,10 @@ class User(AbstractUser):
 
     bio = models.TextField(max_length=1200 ,blank=True, null=True)
 
+    #TODO: Work on profile_picture field
+    #Going to read the following documentation:
+    #https://www.geeksforgeeks.org/python/imagefield-django-models/
+    #https://docs.djangoproject.com/en/5.2/ref/models/fields/
+    #profile_picture = models.ImageField()
     def __str__(self):
         return self.username
